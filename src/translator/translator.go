@@ -11,7 +11,7 @@ func TranslateTweet(tweet *twitter.Tweet) (string, error) {
 		return "", errors.New("arg 'tweet' is nil")
 	}
 
-	tweetString := fmt.Sprintf("%s: %s", tweet.IDStr, tweet.Text)
+	tweetString := fmt.Sprintf("%s(%s): %s", tweet.User.Name, tweet.User.ScreenName, tweet.Text)
 
 	return tweetString, nil
 }
