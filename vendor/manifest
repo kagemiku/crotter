@@ -27,11 +27,29 @@
 			"branch": "master"
 		},
 		{
+			"importpath": "github.com/fatih/color",
+			"repository": "https://github.com/fatih/color",
+			"revision": "507f6050b8568533fb3f5504de8e5205fa62a114",
+			"branch": "master"
+		},
+		{
 			"importpath": "github.com/google/go-querystring/query",
 			"repository": "https://github.com/google/go-querystring",
 			"revision": "53e6ce116135b80d037921a7fdd5138cf32d7a8a",
 			"branch": "master",
 			"path": "/query"
+		},
+		{
+			"importpath": "github.com/mattn/go-colorable",
+			"repository": "https://github.com/mattn/go-colorable",
+			"revision": "efa589957cd060542a26d2dd7832fd6a6c6c3ade",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/mattn/go-isatty",
+			"repository": "https://github.com/mattn/go-isatty",
+			"revision": "6ca4dbf54d38eea1a992b3c722a76a5d1c4cb25c",
+			"branch": "master"
 		},
 		{
 			"importpath": "golang.org/x/net/context",
